@@ -8,10 +8,10 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
     - libpcap-dev
-    - gcc-4.9
-    - g++-4.9
+    - gcc-4.8
+    - g++-4.8
 before_install:
-    - export CC="gcc-4.9" CXX="g++-4.9"
+    - export CC="gcc-4.8" CXX="g++-4.8"
 
 node_js:
   - "4.2"
