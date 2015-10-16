@@ -1,0 +1,25 @@
+{
+  "name": "testing-mock-event-emitters",
+  "version": "0.0.0",
+  "description": "this is some simple code to play around with mocking event emitters for testing",
+  "main": "module.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hortinstein/testing_mock_event_emitters.git"
+  },
+  "keywords": [
+    "test",
+    "eventemitter",
+    "mock",
+    "mockery"
+  ],
+  "author": "hortinstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hortinstein/testing_mock_event_emitters/issues"
+  },
+  "homepage": "https://github.com/hortinstein/testing_mock_event_emitters"
+}
