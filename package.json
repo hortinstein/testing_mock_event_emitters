@@ -4,7 +4,7 @@
   "description": "this is some simple code to play around with mocking event emitters for testing",
   "main": "module.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha test/test.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "mockery": "~1.4.0",
     "should": "~7.1.0",
     "mocha": "~2.3.3",
-    "pcap": "~2.0.1"
+    "pcap": "~2.0.0",
+    "istanbul": "*",
+    "coveralls": "*"
   }
 }
